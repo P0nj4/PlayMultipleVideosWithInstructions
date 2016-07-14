@@ -13,6 +13,11 @@
 		443F45E51D37F12200F0CEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F45E31D37F12200F0CEDD /* Main.storyboard */; };
 		443F45E71D37F12200F0CEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443F45E61D37F12200F0CEDD /* Assets.xcassets */; };
 		443F45EA1D37F12200F0CEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F45E81D37F12200F0CEDD /* LaunchScreen.storyboard */; };
+		443F45F21D37F15C00F0CEDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443F45F11D37F15C00F0CEDD /* AVFoundation.framework */; };
+		443F45F41D37F16100F0CEDD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443F45F31D37F16100F0CEDD /* AVKit.framework */; };
+		443F45F81D37F2A100F0CEDD /* instatall.mov in Resources */ = {isa = PBXBuildFile; fileRef = 443F45F51D37F2A100F0CEDD /* instatall.mov */; };
+		443F45F91D37F2A100F0CEDD /* sportTall.mov in Resources */ = {isa = PBXBuildFile; fileRef = 443F45F61D37F2A100F0CEDD /* sportTall.mov */; };
+		443F45FA1D37F2A100F0CEDD /* tennisTall.mov in Resources */ = {isa = PBXBuildFile; fileRef = 443F45F71D37F2A100F0CEDD /* tennisTall.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		443F45E61D37F12200F0CEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443F45E91D37F12200F0CEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443F45EB1D37F12200F0CEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443F45F11D37F15C00F0CEDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		443F45F31D37F16100F0CEDD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		443F45F51D37F2A100F0CEDD /* instatall.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = instatall.mov; sourceTree = "<group>"; };
+		443F45F61D37F2A100F0CEDD /* sportTall.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sportTall.mov; sourceTree = "<group>"; };
+		443F45F71D37F2A100F0CEDD /* tennisTall.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tennisTall.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443F45F41D37F16100F0CEDD /* AVKit.framework in Frameworks */,
+				443F45F21D37F15C00F0CEDD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 		443F45CE1D37F12200F0CEDD = {
 			isa = PBXGroup;
 			children = (
+				443F45F31D37F16100F0CEDD /* AVKit.framework */,
+				443F45F11D37F15C00F0CEDD /* AVFoundation.framework */,
 				443F45D91D37F12200F0CEDD /* VideoPlayerTest */,
 				443F45D81D37F12200F0CEDD /* Products */,
 			);
@@ -58,6 +72,9 @@
 		443F45D91D37F12200F0CEDD /* VideoPlayerTest */ = {
 			isa = PBXGroup;
 			children = (
+				443F45F51D37F2A100F0CEDD /* instatall.mov */,
+				443F45F61D37F2A100F0CEDD /* sportTall.mov */,
+				443F45F71D37F2A100F0CEDD /* tennisTall.mov */,
 				443F45DD1D37F12200F0CEDD /* AppDelegate.h */,
 				443F45DE1D37F12200F0CEDD /* AppDelegate.m */,
 				443F45E01D37F12200F0CEDD /* ViewController.h */,
@@ -137,8 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				443F45EA1D37F12200F0CEDD /* LaunchScreen.storyboard in Resources */,
+				443F45F81D37F2A100F0CEDD /* instatall.mov in Resources */,
+				443F45FA1D37F2A100F0CEDD /* tennisTall.mov in Resources */,
 				443F45E71D37F12200F0CEDD /* Assets.xcassets in Resources */,
 				443F45E51D37F12200F0CEDD /* Main.storyboard in Resources */,
+				443F45F91D37F2A100F0CEDD /* sportTall.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
